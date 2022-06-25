@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:get-commands.helloWorld"
+        "onCommand:get-commands.getCommands"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "get-commands.helloWorld",
-				"title": "Hello World"
+				"command": "get-commands.getCommands",
+				"title": "Get-commands: Get Commands"
 			}
 		]
 	},
